@@ -219,7 +219,7 @@ img {
         background: var(--redColor);
         color: var(--whiteColor);
         &::before {
-            background-color: var(--mainColor);
+            background-color: #F18345;
         }
     }
     &:hover {
@@ -304,7 +304,7 @@ Top Header CSS
                 color: var(--whiteColor);
                 transition: var(--transition);
                 &:hover {
-                    color: var(--mainColor);
+                    //color: var(--mainColor);
                 }
             }
         }
