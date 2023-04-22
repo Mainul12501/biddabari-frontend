@@ -1,0 +1,85 @@
+.mean-menu ul li a{
+    font-size: 35px !important;
+    color: #000 !important;
+    border: 1px solid #F18345;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+}
+.mean-menu ul li a:first-child{
+    margin-left: 35px !important;
+}
+.mean-menu ul li .active, .mean-menu ul li:hover a{
+    background-color: #F18345;
+    color: #fff !important;
+}
+.desktop-nav .navbar .navbar-nav {
+    margin-left: auto;
+    margin-right: 95px !important;
+}
+.default-btn.two{
+    background-color: #000 !important;
+}
+
+
+@media only screen and (max-width: 991px){
+    .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.active {
+        color: #F18345;
+    }
+    .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li:hover a {
+        color: #F18345 !important;
+        background-color: #000 !important;
+    }
+    .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul {
+        font-size: 25px !important;
+    }
+    .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a {
+        padding: 0px 18px;
+    }
+    .mobile-responsive-nav .mean-container a.meanmenu-reveal span {
+        background: #F18345;
+    }
+
+    .mobile-responsive-nav .mean-container a.meanmenu-reveal {
+        color: #F18345;
+        position: absolute;
+        top: 15px;
+    }
+    .side-nav-responsive .dot-menu .circle-inner .ri-search-line{
+        background: #F18345;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 25px;
+        height: 40px;
+        width: 41px;
+        text-align: center;
+    }
+    .side-nav-responsive .side-nav-inner .side-nav{
+        background: #F18345;
+    }
+    .side-nav-responsive .side-nav-inner .side-nav .side-item .search-form button {
+        background-color: #F18345;
+    }
+    .side-nav-responsive .side-nav-inner .side-nav .side-item .search-form button:hover {
+        background-color: #000;
+    }
+    .side-nav-responsive .dot-menu{
+        display: inline-flex;
+    }
+    .side-nav-responsive .dot-menu .side-item{
+        position: absolute;
+        right: 68px;
+        top: -5px;
+    }
+    .side-nav-responsive .dot-menu .side-item a{
+        height: 40px;
+        width: 41px;
+        background: #F18345;
+        font-size: 25px;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+    }
+
+
+}
