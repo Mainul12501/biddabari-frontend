@@ -20,7 +20,38 @@
 .default-btn.two{
     background-color: #000 !important;
 }
+.navbar-area{
+    box-shadow: 10px 10px 10px #D6D6D6;
+    /*box-shadow: 0px 0px 10px #7c4c47;*/
+    position: relative;
+    z-index: 99999;
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+.hero-slider-area{
+    background-color: #F0F0F0;
+    color: #fff !important;
+}
+/*.hero-slider-area h1,p{*/
+/*    color: #fff !important;*/
+/*}*/
 
+.featured-item-two{
+    box-shadow: 0 0 15px #D6D6D6;
+}
+.featured-item-two::before{
+    background-color: #F18345;
+}
+.featured-item-two a i{
+    color: #F18345 !important;
+}
+.featured-item-two h3{
+    font-size: 27px;
+}
+.featured-item-two:hover a i{
+    color: #fff !important;
+}
 
 @media only screen and (max-width: 991px){
     .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.active {
