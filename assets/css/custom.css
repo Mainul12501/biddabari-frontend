@@ -21,7 +21,7 @@
     background-color: #000 !important;
 }
 .navbar-area{
-    box-shadow: 10px 10px 10px #D6D6D6;
+    box-shadow: 0px 10px 10px #D6D6D6;
     /*box-shadow: 0px 0px 10px #7c4c47;*/
     position: relative;
     z-index: 99999;
@@ -52,6 +52,110 @@
 .featured-item-two:hover a i{
     color: #fff !important;
 }
+.default-btn{
+   background-color: #000;
+}
+.default-btn::before{
+   background-color: #F18345;
+}
+/*.categories-item{*/
+/*    box-shadow: 0px 0px 25px #F0F0F0;*/
+/*}*/
+.categories-item h3{
+    font-size: 17px;
+}
+.categories-item::before{
+    background-color: #F18345;
+}
+.categories-item .content a i{
+    color: #000;
+}
+.categories-item:hover .content a i{
+    color: #F18345;
+}
+.categories-item{
+    box-shadow: 0px 0px 25px #D6D6D6;
+}
+.categories-item a img{
+    border: 2px solid #F18345;
+
+}
+.price-box .discount-time{
+    background: red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.price-box .discount-time span{
+    color: #fff;
+    /*border: 2px solid #000;*/
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 6px;
+
+}
+.price-box .discount-time i{
+    color: #fff;
+    font-size: 26px;
+}
+.running{
+    display: block !important;
+    text-align: center !important;
+}
+.dis-course-price span{
+    color: #fff;
+}
+.dis-course-price .course-price{
+    background-color: green;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 48%;
+    font-weight: 700;
+    font-size: 16px;
+}
+.dis-course-price .course-price-full{
+    width: 100%;
+}
+.dis-course-price .dis-course-amount{
+    background-color: #F18345;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    right: -2px;
+    font-weight: 700;
+}
+
+.acme-news-ticker{
+    border: none !important ;
+    background: none !important;
+    top: -9px !important;
+    font-size: 25px !important;
+}
+.acme-news-ticker-box ul li a {
+    color: #fff !important;
+    margin-right: 50px;
+}
+.bottom-content a{
+    font-size: 32px;
+}
+.btn-warning {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+.btn-warning:focus {
+    box-shadow: 0 0 0 0px #000 !important;
+}
+.btn-warning:hover {
+    background-color: #F18345 !important;
+    border-color: #F18345 !important;
+}
+
 
 @media only screen and (max-width: 991px){
     .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.active {
@@ -111,6 +215,10 @@
         border-radius: 50%;
         color: #fff;
     }
+    .acme-news-ticker{
+        margin-top: 0px !important;
+    }
+
 
 
 }
