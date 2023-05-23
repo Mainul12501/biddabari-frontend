@@ -609,6 +609,39 @@ body{
     font-size: 21px;
 }
 
+.courses-details-into p{
+    font-size: 21px;
+}
+.billing-totals ul li{
+    font-size: 25px;
+    color: #000;
+}
+.billing-totals ul li span{
+    color: #F18345;
+}
+.billing-totals h3{
+    color: #000;
+    font-size: 28px;
+}
+.payment-box .payment-method p [type="radio"]:checked + label::after{
+    top: 12px;
+}
+.payment-box .payment-method p [type="radio"]:checked + label::before{
+    top: 9px;
+}
+.payment-box .payment-method p [type="radio"]:checked + label{
+    font-size: 22px;
+}
+.payment-box .payment-method p [type="radio"]:not(:checked) + label::before{
+    top: 10px;
+}
+.payment-box .payment-method p [type="radio"]:not(:checked) + label{
+    font-size: 22px;
+}
+.payment-box a{
+    font-size: 23px !important;
+}
+
 
 /* ---- for  isotope ---- */
 
